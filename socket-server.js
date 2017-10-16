@@ -1,5 +1,5 @@
 // Require HTTP module (to start server) and Socket.IO
-var http = require('http'), io = require('/usr/local/lib/node_modules/socket.io');
+var http = require('http'), io = require('socket.io');
 
 // Start the server at port 8080
 var server = http.createServer(function(req, res){ 
